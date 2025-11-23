@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+       
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+        <div id="sectionstartpage">
+                <div class="bg-container">
+                        <h1 class="shadow headingstartpage">Your Next Laptop Awaits — Smarter, Faster, and Affordable</h1>
+                        <div class="shadow carouselstartpage">
+                                <div id="startCarousel" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                                <li data-target="#startCarousel" data-slide-to="0" class="active"></li>
+                                                <li data-target="#startCarousel" data-slide-to="1"></li>
+                                                <li data-target="#startCarousel" data-slide-to="2"></li>
+                                            </ol>
+                                        <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                        <img src="https://wallpapers.com/images/hd/macbook-air-sleek-t8tzxnf5gjt4861b.jpg" class="d-block w-100" alt="MacBook Air laptop on a desk" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://static.tweaktown.com/news/9/4/94106_602_asus-rog-strix-scar-16-gaming-laptop-core-i9-14900hx-cpu-rtx-4090-gpu-1600p-240hz-display_full.jpg" class="d-block w-100" alt="ASUS ROG Strix Scar 16 Gaming Laptop" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://png.pngtree.com/thumb_back/fh260/background/20230715/pngtree-wooden-desk-frame-mockup-with-laptop-under-atmospheric-table-lamp-lighting-image_3878590.jpg" class="d-block w-100" alt="Laptop on a wooden desk with ambient lighting" />
+                                                    </div>
+                                            </div>
+                                        <a class="carousel-control-prev" href="#startCarousel" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        <a class="carousel-control-next" href="#startCarousel" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                    </div>
+                            </div>
+                        <button class=" button shadow btn btn-primary" onclick="display('section-Home')">Get Started</button>
+                    </div>
+            </div>
+        <div id="section-Home">
+                <div class="bg-home">
+                        <h1 class="shadow main-heading">Your next chapter starts with the right laptop</h1>
+                        <div class="card1">
+                                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/3a10f0fd-6113-4dca-8a00-d7c9564814da/d1pokyg-33779ef9-5fc3-4c7c-81a3-227c330be47a.jpg" class="shadow image" onclick="display('sectionwindows')" alt="Windows logo on a laptop screen" />
+                            </div>
+                        <div class="card1">
+                                <img src="https://shop.clarioncomputers.in/wp-content/uploads/2024/08/Gaming-Laptop.jpg" class="shadow image" onclick="display('sectiongaming')" alt="Gaming laptop with RGB keyboard" />
+                            </div>
+                        <div class="card1">
+                                <img src="https://img.freepik.com/premium-photo/photo-apple-logo-laptop_1320456-2698.jpg" class="shadow image" onclick="display('sectionmacbook')" alt="Apple MacBook with glowing logo" />
+                            </div>
+                        <button class="shadow btn" onclick="display('sectionstartpage')">Back</button>
+                    </div>
+            </div>
+        <div id="sectionwindows">
+                <div class="bg-home">
+                        <div class=" d-flex flex-row">
+
+                                <div class="card2 d-flex flex-column justify-content-center">
+                                        <img src="https://www.mediainfoline.com/wp-content/uploads/2025/07/Swift-Lite-1_compressed-scaled.webp" class="acer-image1" onclick="display('sectionwindetail1')" alt="Acer Swift Lite 14 AI PC" />
+                                        <p class="text">Acer Swift Lite 14 AI PC</p>
+                                    </div>
+
+                                <div class="card2 d-flex flex-column justify-content-center">
+                                        <img src="https://static.toiimg.com/thumb/resizemode-4,msid-101733259,width-1070/101733259.jpg" class="acer-image1" onclick="display('sectionwindetail2')" alt="HP 15 Laptop" />
+                                        <p class="text">HP 15</p>
+                                    </div>
+                            </div>
+                        <div class=" d-flex flex-row">
+                                <div class="card2 d-flex flex-column justify-content-center">
+                                        <img src="https://coretekcomputers.com/cdn/shop/products/3480A4_1024x1024.jpg?v=1645094769" class="acer-image1" onclick="display('sectionwindetail3')" alt="Dell 15 Laptop" />
+                                        <p class="text">DELL 15</p>
+                                    </div>
+
+                                <div class="card2 d-flex flex-column justify-content-center">
+                                        <img src="https://m.media-amazon.com/images/I/71fAtUda-2L.SY450.jpg" class="acer-image1" onclick="display('sectionwindetail4')" alt="Samsung Book 4 Pro Laptop" />
+                                        <p class="text">SAMSUNG Book 4 PRO
+                                            </p>
+
+                                    </div>
+                            </div>
+                        <button class="btn" onclick="display('section-Home')">Back</button>
+                    </div>
+            </div>
+        <div id="sectionwindetail1">
+                <div class="bg-home">
+                        <h1 class="headingwindowpage">ACER SWIFT LITE 14 AI PC</h1>
+                        <div class="carouselstartpage">
+                                <div id="win1Carousel" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                                <li data-target="#win1Carousel" data-slide-to="0" class="active"></li>
+                                                <li data-target="#win1Carousel" data-slide-to="1"></li>
+                                                <li data-target="#win1Carousel" data-slide-to="2"></li>
+                                            </ol>
+                                        <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                        <img src="https://rukminim2.flixcart.com/image/200/200/cms-rpd-img/db6269e5984b4ec18c44ee69f2e1948d_19985792ed6_Frame-1.jpg.jpeg?q=90" class="d-block w-100" alt="Acer Swift Lite 14 AI PC view 1" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://rukminim2.flixcart.com/image/200/200/cms-rpd-img/308f64da955540f5acfe7b494ba8572e_19985799b66_Frame-4.jpg.jpeg?q=90" class="d-block w-100" alt="Acer Swift Lite 14 AI PC view 2" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://rukminim2.flixcart.com/image/200/200/cms-rpd-img/780d666482034e199ca6287b66ad65e3_1998579567b_Frame-2.jpg.jpeg?q=90" class="d-block w-100" alt="Acer Swift Lite 14 AI PC keyboard view" />
+                                                    </div>
+                                            </div>
+                                        <a class="carousel-control-prev" href="#win1Carousel" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        <a class="carousel-control-next" href="#win1Carousel" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                    </div>
+                                <h1 class="specific">Specifications:</h1>
+                                <ul class="elements">
+                                        <li>Processor Brand: INTEL</li>
+                                        <li>Ram: 16GB </li>
+                                        <li>SSD Capacity: 512GB </li>
+                                        <li>Ram Type: LPDDR5</li>
+                                        <li>Graphic Card: Integrated Intel</li>
+                                        <li>OS: Windows 11 Home</li>
+                                        <li>Price: ₹57,000</li>
+                                    </ul>
+                                <button class="btn" onclick="display('sectionwindows')">Back</button>
+                            </div>
+                    </div>
+            </div>
+        <div id="sectionwindetail2">
+                <div class="bg-home">
+                        <h1 class="headingwindowpage">HP 15</h1>
+                        <div class="carouselstartpage">
+                                <div id="win2Carousel" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                                <li data-target="#win2Carousel" data-slide-to="0" class="active"></li>
+                                                <li data-target="#win2Carousel" data-slide-to="1"></li>
+                                                <li data-target="#win2Carousel" data-slide-to="2"></li>
+                                            </ol>
+                                        <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                        <img src="https://in-files.apjonlinecdn.com/landingpages/content-pages/visid-rich-content/hp-laptop-15/images/w100_featured_1_v1.jpg" class="d-block w-100" alt="HP 15 Laptop view 1" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://in-files.apjonlinecdn.com/landingpages/content-pages/visid-rich-content/hp-laptop-15/images/w100_featured_4_v1.jpg" class="d-block w-100" alt="HP 15 Laptop view 2" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://in-files.apjonlinecdn.com/landingpages/content-pages/visid-rich-content/hp-laptop-15/images/w100_featured_2_v1.jpg" class="d-block w-100" alt="HP 15 Laptop view 3" />
+                                                    </div>
+                                            </div>
+                                        <a class="carousel-control-prev" href="#win2Carousel" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        <a class="carousel-control-next" href="#win2Carousel" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                    </div>
+                                <h1 class="specific">Specifications:</h1>
+                                <ul class="elements">
+                                        <li>Processor Brand: Intel® Core™ Ultra 5</li>
+                                        <li>Ram: 16GB </li>
+                                        <li>SSD Capacity: 1TB </li>
+                                        <li>Ram Type: LPDDR5</li>
+                                        <li>Graphic Card: Intel® Arc™ Graphics</li>
+                                        <li>OS: Windows 11 Home</li>
+                                        <li>Price: ₹50,000</li>
+                                    </ul>
+                                <button class="btn" onclick="display('sectionwindows')">Back</button>
+                            </div>
+                    </div>
+            </div>
+        <div id="sectionwindetail3">
+                <div class="bg-home">
+                        <h1 class="headingwindowpage">DELL 15</h1>
+                        <div class="carouselstartpage">
+                                <div id="win3Carousel" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                                <li data-target="#win3Carousel" data-slide-to="0" class="active"></li>
+                                                <li data-target="#win3Carousel" data-slide-to="1"></li>
+                                                <li data-target="#win3Carousel" data-slide-to="2"></li>
+                                            </ol>
+                                        <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                        <img src="https://m.media-amazon.com/images/I/712WiT-wexL.SL1500.jpg" class="d-block w-100" alt="Dell 15 Laptop view 1" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://m.media-amazon.com/images/I/613Spym7-iL.SL1080.jpg" class="d-block w-100" alt="Dell 15 Laptop view 2" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://m.media-amazon.com/images/I/714VDOxtLvL.SL1500.jpg" class="d-block w-100" alt="Dell 15 Laptop view 3" />
+                                                    </div>
+                                            </div>
+                                        <a class="carousel-control-prev" href="#win3Carousel" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        <a class="carousel-control-next" href="#win3Carousel" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                    </div>
+                                <h1 class="specific">Specifications:</h1>
+                                <ul class="elements">
+                                        <li>Processor Brand: INTEL</li>
+                                        <li>Ram: 16GB </li>
+                                        <li>SSD Capacity: 512GB </li>
+                                        <li>Ram Type: LPDDR4</li>
+                                        <li>Graphic Card: Integrated Intel</li>
+                                        <li>OS: Windows 11 Home</li>
+                                        <li>Price: ₹52,000</li>
+                                    </ul>
+                                <button class="btn" onclick="display('sectionwindows')">Back</button>
+                            </div>
+                    </div>
+            </div>
+        <div id="sectionwindetail4">
+                <div class="bg-home">
+                        <h1 class="headingwindowpage">SAMSUNG BOOK 4 PRO</h1>
+                        <div class="carouselstartpage">
+                                <div id="win4Carousel" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                                <li data-target="#win4Carousel" data-slide-to="0" class="active"></li>
+                                                <li data-target="#win4Carousel" data-slide-to="1"></li>
+                                                <li data-target="#win4Carousel" data-slide-to="2"></li>
+                                            </ol>
+                                        <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                        <img src="https://m.media-amazon.com/images/I/71dSjPz3M6L.SL1500.jpg" class="d-block w-100" alt="Samsung Book 4 Pro view 1" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://m.media-amazon.com/images/I/61iGzZlTYdL.SL1500.jpg" class="d-block w-100" alt="Samsung Book 4 Pro view 2" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://m.media-amazon.com/images/I/61YpQPsfskL.SL1500.jpg" class="d-block w-100" alt="Samsung Book 4 Pro keyboard view" />
+                                                    </div>
+                                            </div>
+                                        <a class="carousel-control-prev" href="#win4Carousel" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        <a class="carousel-control-next" href="#win4Carousel" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                    </div>
+                                <h1 class="specific">Specifications:</h1>
+                                <ul class="elements">
+                                        <li>Processor Brand: Intel core ultra 5</li>
+                                        <li>Ram: 16GB </li>
+                                        <li>SSD Capacity: 512GB </li>
+                                        <li>Ram Type: LPDDR4</li>
+                                        <li>Graphic Card: Integrated Intel</li>
+                                        <li>OS: Windows 11 Home</li>
+                                        <li>Price: ₹1,25,000</li>
+                                    </ul>
+                                <button class="btn" onclick="display('sectionwindows')">Back</button>
+                            </div>
+                    </div>
+            </div>
+        <div id="sectiongaming">
+                <div class="bg-home">
+                        <div class=" d-flex flex-row">
+
+                                <div class="card2 d-flex flex-column justify-content-center">
+                                        <img src="https://m.media-amazon.com/images/I/815ZvsHky7L.SL1500.jpg" class="acer-image1" onclick="display('sectiongamedetail1')" alt="Lenovo LOQ Gaming Laptop" />
+                                        <p class="text">Lenovo LOQ</p>
+                                    </div>
+
+
+                                <div class="card2 d-flex flex-column justify-content-center">
+                                        <img src="https://m.media-amazon.com/images/I/81G1L3nptrL.SL1500.jpg" class="acer-image1" onclick="display('sectiongamedetail2')" alt="Acer SmartChoice ALG Gaming Laptop" />
+                                        <p class="text">Acer SmartChoice ALG</p>
+                                    </div>
+
+                            </div>
+
+                        <div class="acer d-flex flex-row">
+                                <div class="card2 d-flex flex-column justify-content-center">
+                                        <img src="https://m.media-amazon.com/images/I/61nTNphSBvL.SL1500.jpg" class="acer-image1" onclick="display('sectiongamedetail3')" alt="ASUS TUF Gaming Laptop" />
+                                        <p class="text">ASUS TUF</p>
+                                    </div>
+
+                                <div class="card2 d-flex flex-column justify-content-center">
+                                        <img src="https://m.media-amazon.com/images/I/71p8Hn5XcsL.SL1500.jpg" class="acer-image1" onclick="display('sectiongamedetail4')" alt="HP Victus Gaming Laptop" />
+                                        <p class="text">HP Victus</p>
+
+                                    </div>
+                            </div>
+                        <button class="btn" onclick="display('section-Home')">Back</button>
+                    </div>
+            </div>
+        <div id="sectiongamedetail1">
+                <div class="bg-home">
+                        <h1 class="headingwindowpage">Lenovo LOQ</h1>
+                        <div class="carouselstartpage">
+                                <div id="game1Carousel" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                                <li data-target="#game1Carousel" data-slide-to="0" class="active"></li>
+                                                <li data-target="#game1Carousel" data-slide-to="1"></li>
+                                                <li data-target="#game1Carousel" data-slide-to="2"></li>
+                                            </ol>
+                                        <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                        <img src="https://m.media-amazon.com/images/I/71br1pV8EML.SL1080.jpg" class="d-block w-100" alt="Lenovo LOQ view 1" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://m.media-amazon.com/images/I/61yGqG0I9RL.SL1080.jpg" class="d-block w-100" alt="Lenovo LOQ view 2" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://m.media-amazon.com/images/I/81po99S1juL.SL1500.jpg" class="d-block w-100" alt="Lenovo LOQ view 3" />
+                                                    </div>
+                                            </div>
+                                        <a class="carousel-control-prev" href="#game1Carousel" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        <a class="carousel-control-next" href="#game1Carousel" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                    </div>
+                                <h1 class="specific">Specifications:</h1>
+                                <ul class="elements">
+                                        <li>Brand: Lenovo</li>
+                                        <li>Ram: 16GB </li>
+                                        <li>Processor: Intel Core i5-13450HX</li>
+                                        <li>SSD Capacity: 512GB </li>
+                                        <li>Ram Type: LPDDR5</li>
+                                        <li>Graphic Card: NVIDIA RTX 4050 </li>
+                                        <li>OS: Windows 11 Home</li>
+                                        <li>Price: ₹97,500</li>
+                                    </ul>
+                                <button class="btn" onclick="display('sectiongaming')">Back</button>
+                            </div>
+                    </div>
+            </div>
+        <div id="sectiongamedetail2">
+                <div class="bg-home">
+                        <h1 class="headingwindowpage">Acer SmartChoice ALG</h1>
+                        <div class="carouselstartpage">
+                                <div id="game2Carousel" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                                <li data-target="#game2Carousel" data-slide-to="0" class="active"></li>
+                                                <li data-target="#game2Carousel" data-slide-to="1"></li>
+                                                <li data-target="#game2Carousel" data-slide-to="2"></li>
+                                            </ol>
+                                        <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                        <img src="https://m.media-amazon.com/images/I/61hju2QmAdL.SL1080.jpg" class="d-block w-100" alt="Acer SmartChoice ALG view 1" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://m.media-amazon.com/images/I/912xT0gp7wL.SL1500.jpg" class="d-block w-100" alt="Acer SmartChoice ALG view 2" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://m.media-amazon.com/images/I/61Y1Psuxw4L.SL1080.jpg" class="d-block w-100" alt="Acer SmartChoice ALG view 3" />
+                                                    </div>
+                                            </div>
+                                        <a class="carousel-control-prev" href="#game2Carousel" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        <a class="carousel-control-next" href="#game2Carousel" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                    </div>
+                                <h1 class="specific">Specifications:</h1>
+                                <ul class="elements">
+                                        <li>Brand: acer</li>
+                                        <li>Ram: 16GB </li>
+                                        <li>Processor : Intel Core i5-13420H</li>
+                                        <li>SSD Capacity: 512GB </li>
+                                        <li>Ram Type: LPDDR4</li>
+                                        <li>Graphic Card: NVIDIA GeForce RTX 3050</li>
+                                        <li>OS: Windows 11 Home</li>
+                                        <li>Price: ₹62,000</li>
+                                    </ul>
+                                <button class="btn" onclick="display('sectiongaming')">Back</button>
+                            </div>
+                    </div>
+            </div>
+        <div id="sectiongamedetail3">
+                <div class="bg-home">
+                        <h1 class="headingwindowpage">ASUS TUF</h1>
+                        <div class="carouselstartpage">
+                                <div id="game3Carousel" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                                <li data-target="#game3Carousel" data-slide-to="0" class="active"></li>
+                                                <li data-target="#game3Carousel" data-slide-to="1"></li>
+                                                <li data-target="#game3Carousel" data-slide-to="2"></li>
+                                            </ol>
+                                        <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                        <img src="https://m.media-amazon.com/images/I/71m6umYCi2L.SL1200.jpg" class="d-block w-100" alt="ASUS TUF Gaming Laptop view 1" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://m.media-amazon.com/images/I/61fKCsXpfWL.SL1200.jpg" class="d-block w-100" alt="ASUS TUF Gaming Laptop view 2" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://m.media-amazon.com/images/I/61DBwMU6QyL.SL1200.jpg" class="d-block w-100" alt="ASUS TUF Gaming Laptop view 3" />
+                                                    </div>
+                                            </div>
+                                        <a class="carousel-control-prev" href="#game3Carousel" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        <a class="carousel-control-next" href="#game3Carousel" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                    </div>
+                                <h1 class="specific">Specifications:</h1>
+                                <ul class="elements">
+                                        <li>Brand: ASUS</li>
+                                        <li>Ram: 16GB </li>
+                                        <li>Processor: AMD Ryzen 7</li>
+                                        <li>SSD Capacity: 512GB </li>
+                                        <li>Ram Type: LPDDR5</li>
+                                        <li>Graphic Card: NVIDIA RTX 3050</li>
+                                        <li>OS: Windows 11 Home</li>
+                                        <li>Price: ₹68,000</li>
+                                    </ul>
+                                <button class="btn" onclick="display('sectiongaming')">Back</button>
+                            </div>
+                    </div>
+            </div>
+        <div id="sectiongamedetail4">
+                <div class="bg-home">
+                        <h1 class="headingwindowpage">HP Victus</h1>
+                        <div class="carouselstartpage">
+                                <div id="game4Carousel" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                                <li data-target="#game4Carousel" data-slide-to="0" class="active"></li>
+                                                <li data-target="#game4Carousel" data-slide-to="1"></li>
+                                                <li data-target="#game4Carousel" data-slide-to="2"></li>
+                                            </ol>
+                                        <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                        <img src="https://m.media-amazon.com/images/I/81XCjtsIhKL.SL1500.jpg" class="d-block w-100" alt="HP Victus Gaming Laptop view 1" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://m.media-amazon.com/images/I/81vRig1hDNL.SL1500.jpg" class="d-block w-100" alt="HP Victus Gaming Laptop view 2" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://m.media-amazon.com/images/I/81b0f0IF1GL.SL1500.jpg" class="d-block w-100" alt="HP Victus Gaming Laptop view 3" />
+                                                    </div>
+                                            </div>
+                                        <a class="carousel-control-prev" href="#game4Carousel" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        <a class="carousel-control-next" href="#game4Carousel" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                    </div>
+                                <h1 class="specific">Specifications:</h1>
+                                <ul class="elements">
+                                        <li>Brand: HP Victus</li>
+                                        <li>Processor: 12th Gen Intel Core i5-12450H</li>
+                                        <li>Ram: 16GB </li>
+                                        <li>SSD Capacity: 512GB </li>
+                                        <li>Ram Type: LPDDR5</li>
+                                        <li>Graphic Card: 4GB NVIDIA RTX 3050A</li>
+                                        <li>OS: Windows 11 Home</li>
+                                        <li>Price: ₹60,000</li>
+                                    </ul>
+                                <button class="btn" onclick="display('sectiongaming')">Back</button>
+                            </div>
+                    </div>
+            </div>
+        <div id="sectionmacbook">
+                <div class="bg-home">
+                        <div class=" d-flex flex-row">
+
+                                <div class="card2 d-flex flex-column justify-content-center">
+                                        <img src="https://static1.xdaimages.com/wordpress/wp-content/uploads/2023/06/macbook-air-15-inch-colors.jpg" class="acer-image1" onclick="display('sectionmacdetail1')" alt="MacBook Air 13 in different colors" />
+                                        <p class="text">MacBook Air 13</p>
+                                    </div>
+                                <div class="card2 d-flex flex-column justify-content-center">
+                                        <img src="https://cdn.mos.cms.futurecdn.net/Ajc3ezCTN4FGz2vF4LpQn9.jpg" class="acer-image1" onclick="display('sectionmacdetail2')" alt="MacBook Air 15 laptop" />
+                                        <p class="text">MacBook Air 15 </p>
+                                    </div>
+
+                            </div>
+
+                        <div class="acer d-flex flex-row">
+                                <div class="card2 d-flex flex-column justify-content-center">
+                                        <img src="https://www.notebookcheck.net/fileadmin/processed/9/7/csm_IMG_7743_defa0cb064.jpg" class="acer-image1" onclick="display('sectionmacdetail3')" alt="MacBook Pro 14 laptop" />
+                                        <p class="text">MacBook Pro 14</p>
+                                    </div>
+
+                                <div class="card2 d-flex flex-column justify-content-center">
+                                        <img src="https://m.media-amazon.com/images/I/61opqQEBUxL.SL1500.jpg" class="acer-image1" onclick="display('sectionmacdetail4')" alt="MacBook Pro 16 laptop" />
+                                        <p class="text">MacBook Pro 16</p>
+
+                                    </div>
+                            </div>
+                        <button class="btn" onclick="display('section-Home')">Back</button>
+                    </div>
+            </div>
+        <div id="sectionmacdetail1">
+                <div class="bg-home">
+                        <h1 class="headingwindowpage">MacBook Air 13</h1>
+                        <div class="carouselstartpage">
+                                <div id="mac1Carousel" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                                <li data-target="#mac1Carousel" data-slide-to="0" class="active"></li>
+                                                <li data-target="#mac1Carousel" data-slide-to="1"></li>
+                                                <li data-target="#mac1Carousel" data-slide-to="2"></li>
+                                            </ol>
+                                        <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                        <img src="https://www.apple.com/newsroom/images/2024/03/apple-unveils-the-new-13-and-15-inch-macbook-air-with-the-powerful-m3-chip/article/Apple-MacBook-Air-2-up-hero-240304_big.jpg.large_2x.jpg" class="d-block w-100" alt="MacBook Air 13 view 1" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://cdn.mos.cms.futurecdn.net/DKP4keBc9LGTkUjBEEA5o4.jpg" class="d-block w-100" alt="MacBook Air 13 view 2" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://m.media-amazon.com/images/I/614c-nxHQpL.AC.jpg" class="d-block w-100" alt="MacBook Air 13 view 3" />
+                                                    </div>
+                                            </div>
+                                        <a class="carousel-control-prev" href="#mac1Carousel" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        <a class="carousel-control-next" href="#mac1Carousel" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                    </div>
+                                <h1 class="specific">Specifications:</h1>
+                                <ul class="elements">
+                                        <li>Brand: APPLE</li>
+                                        <li>Chip: Apple M4 chip </li>
+                                        <li>Ram: 24GB</li>
+                                        <li>SSD Capacity: 512GB </li>
+                                        <li>OS: macOS</li>
+                                        <li>Price: ₹1,39,999</li>
+                                    </ul>
+                                <button class="btn" onclick="display('sectionmacbook')">Back</button>
+                            </div>
+                    </div>
+            </div>
+        <div id="sectionmacdetail2">
+                <div class="bg-home">
+                        <h1 class="headingwindowpage">MacBook Air 15</h1>
+                        <div class="carouselstartpage">
+                                <div id="mac2Carousel" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                                <li data-target="#mac2Carousel" data-slide-to="0" class="active"></li>
+                                                <li data-target="#mac2Carousel" data-slide-to="1"></li>
+                                                <li data-target="#mac2Carousel" data-slide-to="2"></li>
+                                            </ol>
+                                        <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                        <img src="https://i.ytimg.com/vi/Q5oPbPc72Tw/maxresdefault.jpg" class="d-block w-100" alt="MacBook Air 15 view 1" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://photos5.appleinsider.com/gallery/46349-96244-15MBA-purple-open-xl.jpg" class="d-block w-100" alt="MacBook Air 15 view 2" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://www.maketecheasier.com/assets/uploads/2017/01/laptop-tech-to-look-forward-to-in-2017-hybrids.jpg" class="d-block w-100" alt="MacBook Air 15 view 3" />
+                                                    </div>
+                                            </div>
+                                        <a class="carousel-control-prev" href="#mac2Carousel" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        <a class="carousel-control-next" href="#mac2Carousel" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                    </div>
+                                <h1 class="specific">Specifications:</h1>
+                                <ul class="elements">
+                                        <li>Brand: APPLE</li>
+                                        <li>Chip: Apple M4 chip </li>
+                                        <li>Ram: 24GB</li>
+                                        <li>SSD Capacity: 512GB </li>
+                                        <li>OS: macOS</li>
+                                        <li>Price: ₹1,64,900</li>
+                                    </ul>
+                                <button class="btn" onclick="display('sectionmacbook')">Back</button>
+                            </div>
+                    </div>
+            </div>
+        <div id="sectionmacdetail3">
+                <div class="bg-home">
+                        <h1 class="headingwindowpage">MacBook Pro 14</h1>
+                        <div class="carouselstartpage">
+                                <div id="mac3Carousel" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                                <li data-target="#mac3Carousel" data-slide-to="0" class="active"></li>
+                                                <li data-target="#mac3Carousel" data-slide-to="1"></li>
+                                                <li data-target="#mac3Carousel" data-slide-to="2"></li>
+                                            </ol>
+                                        <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                        <img src="https://www.thestreet.com/.image/t_share/MTk1MzY2NjE1NDAxODk5NzA3/2-14-inch-macbook-pro-with-m2-pro-chip-review.jpg" class="d-block w-100" alt="MacBook Pro 14 view 1" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://media.cnn.com/api/v1/images/stellar/prod/211025072623-macbook-pro-14-display-5.jpg?q=x_0,y_0,h_2268,w_4030,c_fill/h_833,w_1480" class="d-block w-100" alt="MacBook Pro 14 view 2" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://m.media-amazon.com/images/I/61CRbTpxNwL.SL1500.jpg" class="d-block w-100" alt="MacBook Pro 14 view 3" />
+                                                    </div>
+                                            </div>
+                                        <a class="carousel-control-prev" href="#mac3Carousel" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        <a class="carousel-control-next" href="#mac3Carousel" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                    </div>
+                                <h1 class="specific">Specifications:</h1>
+                                <ul class="elements">
+                                        <li>Brand: APPLE</li>
+                                        <li>Chip: Apple M4 Max chip </li>
+                                        <li>Ram: 36GB</li>
+                                        <li>SSD Capacity: 1TB </li>
+                                        <li>OS: macOS</li>
+                                        <li>Price: ₹3,19,900</li>
+                                    </ul>
+                                <button class="btn" onclick="display('sectionmacbook')">Back</button>
+                            </div>
+                    </div>
+            </div>
+        <div id="sectionmacdetail4">
+                <div class="bg-home">
+                        <h1 class="headingwindowpage">MacBook Pro 16</h1>
+                        <div class="carouselstartpage">
+                                <div id="mac4Carousel" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                                <li data-target="#mac4Carousel" data-slide-to="0" class="active"></li>
+                                                <li data-target="#mac4Carousel" data-slide-to="1"></li>
+                                                <li data-target="#mac4Carousel" data-slide-to="2"></li>
+                                            </ol>
+                                        <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                        <img src="https://m.media-amazon.com/images/I/7135DkWwJVL.SL1500.jpg" class="d-block w-100" alt="MacBook Pro 16 view 1" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://m.media-amazon.com/images/I/61mfMh+cEkL.SL1500.jpg" class="d-block w-100" alt="MacBook Pro 16 view 2" />
+                                                    </div>
+                                                <div class="carousel-item">
+                                                        <img src="https://m.media-amazon.com/images/I/718n279cEAL.SL1500.jpg" class="d-block w-100" alt="MacBook Pro 16 view 3" />
+                                                    </div>
+                                            </div>
+                                        <a class="carousel-control-prev" href="#mac4Carousel" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        <a class="carousel-control-next" href="#mac4Carousel" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                    </div>
+                                <h1 class="specific">Specifications:</h1>
+                                <ul class="elements">
+                                        <li>Brand: APPLE</li>
+                                        <li>Chip: Apple M4 Max chip </li>
+                                        <li>Ram: 48GB</li>
+                                        <li>SSD Capacity: 1TB </li>
+                                        <li>OS: macOS</li>
+                                        <li>Price: ₹3,99,900</li>
+                                    </ul>
+                                <button class="btn" onclick="display('sectionmacbook')">Back</button>
+                            </div>
+                    </div>
+            </div>
+        <script type="text/javascript" src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

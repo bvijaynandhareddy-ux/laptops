@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+
+.bg-container {
+    background-image: url("https://wallpapercave.com/wp/wp5320845.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    padding: 20px;
+}
+
+.headingstartpage {
+    color: #f0f0f0;
+    font-size: 32px;
+    text-align: center;
+    font-family: Caveat;
+    margin-top: 20px;
+}
+
+.carouselstartpage {
+    margin: 40px auto;
+    width: 80%;
+}
+
+.btn {
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 2px dotted #fff;
+    background-color: transparent;
+    font-size: 18px;
+    margin: 20px auto;
+    display: block;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
+
+
+.bg-home {
+    background-image: url('https://wallpapers.com/images/file/black-blur-background-1okwgennjzjn28y9.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+.main-heading {
+    font-size: 32px;
+    font-family: Caveat;
+    text-align: center;
+    color: #f0f0f0;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+
+
+
+.image {
+    height: 180px;
+    width: 180px;
+    margin-top: 30px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
+.card1 {
+    text-align: center;
+}
+
+
+
+
+.acer-image1 {
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+}
+
+.acer-image1:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+.card2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 42vh;
+    width: 40vw;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.card2:hover {
+    transform: scale(1.03);
+}
+
+.text {
+    color: #f0f0f0;
+    font-family: Caveat;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+.headingwindowpage {
+    color: #f0f0f0;
+    font-size: 32px;
+    text-align: center;
+    padding: 20px;
+    font-family: Caveat;
+    text-decoration: underline;
+}
+
+.specific {
+    color: #ffffff;
+    font-size: 28px;
+    text-decoration: underline;
+    font-family: Caveat;
+    margin-top: 20px;
+}
+
+.elements {
+    color: #dddddd;
+    font-family: Caveat;
+    font-size: 20px;
+    margin: 15px auto;
+    width: 80%;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .carouselstartpage {
+        width: 95%;
+    }
+
+    .card2 {
+        width: 80vw;
+        height: auto;
+    }
+
+    .acer-image1,
+    .image {
+        height: 130px;
+        width: 130px;
+    }
+
+    .main-heading,
+    .headingstartpage,
+    .headingwindowpage {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .image,
+    .acer-image1 {
+        height: 110px;
+        width: 110px;
+    }
+
+    .card2 {
+        width: 90vw;
+        margin: 10px auto;
+    }
+}
